@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://syougaku1000fire-gif.github.io/umiyado30-site/sitemap.xml

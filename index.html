@@ -24,6 +24,21 @@
   <meta name="twitter:title" content="うみやど30 | Umiyado 30">
   <meta name="twitter:description" content="和歌山・美浜の一棟貸し。BBQ・ピザ窯・果実収穫。Airbnbゲストチョイス★5.0。最大30名対応。">
 
+  <!-- OG Image (SNS共有時のサムネイル) -->
+  <meta property="og:image" content="https://syougaku1000fire-gif.github.io/umiyado30-site/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="うみやど30 - 和歌山・美浜の古民家一棟貸し">
+  <meta name="twitter:image" content="https://syougaku1000fire-gif.github.io/umiyado30-site/images/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#1a2744">
+
   <!-- Structured Data -->
   <script type="application/ld+json">
   {
@@ -31,27 +46,93 @@
     "@type": "LodgingBusiness",
     "name": "うみやど30 / Umiyado 30",
     "description": "和歌山・美浜町の一棟貸し。BBQ・ピザ窯・果実収穫など田舎体験充実。Airbnbゲストチョイス★5.0。最大30名対応。熊野古道認定ガイドのホスト。",
-    "url": "https://syougaku1000fire-gif.github.io/umiyado30-site",
+    "url": "https://syougaku1000fire-gif.github.io/umiyado30-site/",
+    "image": "https://syougaku1000fire-gif.github.io/umiyado30-site/images/og-image.jpg",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "美浜町",
       "addressRegion": "和歌山県",
       "addressCountry": "JP"
     },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 33.8917,
+      "longitude": 135.1397
+    },
     "amenityFeature": [
-      {"@type": "LocationFeatureSpecification", "name": "Free Parking"},
-      {"@type": "LocationFeatureSpecification", "name": "BBQ Grill"},
-      {"@type": "LocationFeatureSpecification", "name": "Pizza Oven"},
-      {"@type": "LocationFeatureSpecification", "name": "Full Kitchen"},
-      {"@type": "LocationFeatureSpecification", "name": "Free WiFi"}
+      {"@type": "LocationFeatureSpecification", "name": "Free Parking", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "BBQ Grill", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Pizza Oven", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Full Kitchen", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Free WiFi", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Washer & Dryer", "value": true}
     ],
     "maximumAttendeeCapacity": 30,
+    "numberOfRooms": 4,
+    "floorSize": {"@type": "QuantitativeValue", "value": 107, "unitCode": "MTK"},
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5.0",
       "reviewCount": "65",
       "bestRating": "5"
-    }
+    },
+    "availableLanguage": ["Japanese", "English", "Spanish"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "うみやど30は何名まで泊まれますか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "本館は最大12名（107㎡・4LDK）まで宿泊可能です。隣接する別館と合わせれば最大30名まで対応可能で、家族旅行・友人グループ・企業の合宿にも最適です。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "うみやど30ではどんな体験ができますか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "800㎡の庭でのBBQ（テント付き）、ホスト手作りのピザ窯、季節の果実収穫（みかん・レモン・柿）、徒歩圏内の漁港での釣り体験、プロジェクター・カタン・UNO・卓球など。ホストは熊野古道認定ガイドで、ガイドツアーの相談も可能です。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "アクセス方法を教えてください",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "車の場合、阪和自動車道・御坊ICから約15分。大阪市内から約2時間、関西国際空港から約1時間、南紀白浜空港から約45分です。電車の場合、JR御坊駅から車で約9分、大阪（天王寺）から特急で約1時間30分です。無料駐車場があります。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "料金の目安はいくらですか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "宿泊料金・空室状況はAirbnbリスティングでご確認いただけます。時期や人数によって変動します。Airbnbゲストチョイス認定・評価5.0（65件のレビュー）を獲得しており、他の宿泊施設と比較しても高い満足度を得ています。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "子ども連れでも利用できますか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "はい、大歓迎です。800㎡の広い庭で安心して遊べます。果実の収穫、ピザ焼き体験、釣りなど、お子様が楽しめる体験が豊富です。キッチン・洗濯乾燥機完備で、長期滞在にも対応しています。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "予約はどこからできますか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Airbnbリスティングから空室確認・予約が可能です。事前のご質問・お問い合わせもAirbnbのメッセージ機能からお気軽にどうぞ。ホストは日本語・英語・スペイン語に対応しています。"
+        }
+      }
+    ]
   }
   </script>
 
@@ -520,6 +601,29 @@
     .reviewer-name { font-size: 13px; font-weight: 500; color: var(--navy); }
     .reviewer-origin { font-size: 12px; color: var(--muted); margin-top: 2px; }
 
+    /* ===== FAQ (AIO対策) ===== */
+    #faq { padding: var(--section-pad); background: var(--white); }
+    .faq-list { max-width: 800px; margin: 0 auto; }
+    .faq-item {
+      border-bottom: 1px solid #e5e7eb;
+      padding: 24px 0;
+    }
+    .faq-q {
+      font-size: 1.05rem; font-weight: 500;
+      color: var(--navy); margin-bottom: 12px;
+      letter-spacing: 0.05em;
+      display: flex; align-items: flex-start; gap: 12px;
+    }
+    .faq-q::before {
+      content: 'Q.';
+      color: var(--gold); font-family: 'Playfair Display', serif;
+      font-weight: 600; flex-shrink: 0;
+    }
+    .faq-a {
+      font-size: 0.95rem; line-height: 1.9; color: #4a5568;
+      padding-left: 24px;
+    }
+
     /* ===== BOOKING CTA ===== */
     #booking {
       padding: var(--section-pad);
@@ -667,7 +771,7 @@
 
   <!-- FLOATING CTA -->
   <div class="floating-cta" id="floatingCta">
-    <a href="https://www.airbnb.jp/rooms/1477080343237895280" target="_blank" rel="noopener">
+    <a href="https://www.airbnb.jp/rooms/1477080343237895280?source=hp_ja&utm_source=umiyado30_hp&utm_medium=web&utm_campaign=hp_ja" target="_blank" rel="noopener">
       空室を確認する
     </a>
   </div>
@@ -683,9 +787,10 @@
       <a href="#experience">体験</a>
       <a href="#location">アクセス</a>
       <a href="#reviews">口コミ</a>
+      <a href="#faq">Q&amp;A</a>
       <a href="#booking" class="nav-contact">お問い合わせ</a>
       <a href="en/" class="nav-lang">EN</a>
-      <a href="https://www.airbnb.jp/rooms/1477080343237895280" class="nav-book" target="_blank" rel="noopener">空室を確認する</a>
+      <a href="https://www.airbnb.jp/rooms/1477080343237895280?source=hp_ja&utm_source=umiyado30_hp&utm_medium=web&utm_campaign=hp_ja" class="nav-book" target="_blank" rel="noopener">空室を確認する</a>
     </nav>
     <button class="menu-btn" id="menuBtn" aria-label="メニュー">
       <span></span><span></span><span></span>
@@ -716,7 +821,7 @@
       <p class="hero-title-en fade-up delay-2">Where the Sea Meets Authentic Japan.</p>
       <p class="hero-sub fade-up delay-2">和歌山県美浜町 · 一棟貸し · 最大12名（2棟で最大30名）</p>
       <div class="hero-btns fade-up delay-3">
-        <a href="https://www.airbnb.jp/rooms/1477080343237895280" class="btn-primary" target="_blank" rel="noopener">
+        <a href="https://www.airbnb.jp/rooms/1477080343237895280?source=hp_ja&utm_source=umiyado30_hp&utm_medium=web&utm_campaign=hp_ja" class="btn-primary" target="_blank" rel="noopener">
           空室を確認する
         </a>
         <a href="#concept" class="btn-secondary">詳しく見る</a>
@@ -1069,6 +1174,43 @@
     </div>
   </section>
 
+  <!-- FAQ (AIO対策) -->
+  <section id="faq">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="tag">— FAQ</span>
+        <h2>よくあるご質問</h2>
+        <p>ご予約前に多くのお客様からいただくご質問をまとめました。</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item fade-up">
+          <div class="faq-q">何名まで泊まれますか？</div>
+          <div class="faq-a">本館は最大12名（107㎡・4LDK）まで宿泊可能です。隣接する別館と合わせれば最大30名まで対応可能で、家族旅行・友人グループ・企業の合宿にも最適です。</div>
+        </div>
+        <div class="faq-item fade-up">
+          <div class="faq-q">どんな体験ができますか？</div>
+          <div class="faq-a">800㎡の庭でのBBQ（テント付き）、ホスト手作りのピザ窯、季節の果実収穫（みかん・レモン・柿）、徒歩圏内の漁港での釣り体験、プロジェクター・カタン・UNO・卓球など。ホストは熊野古道認定ガイドで、ガイドツアーの相談も可能です。</div>
+        </div>
+        <div class="faq-item fade-up">
+          <div class="faq-q">アクセス方法を教えてください</div>
+          <div class="faq-a">車の場合、阪和自動車道・御坊ICから約15分。大阪市内から約2時間、関西国際空港から約1時間、南紀白浜空港から約45分です。電車の場合、JR御坊駅から車で約9分、大阪（天王寺）から特急で約1時間30分です。無料駐車場があります。</div>
+        </div>
+        <div class="faq-item fade-up">
+          <div class="faq-q">料金の目安はいくらですか？</div>
+          <div class="faq-a">宿泊料金・空室状況はAirbnbリスティングでご確認いただけます。時期や人数によって変動します。Airbnbゲストチョイス認定・評価5.0（65件のレビュー）を獲得しており、他の宿泊施設と比較しても高い満足度を得ています。</div>
+        </div>
+        <div class="faq-item fade-up">
+          <div class="faq-q">子ども連れでも利用できますか？</div>
+          <div class="faq-a">はい、大歓迎です。800㎡の広い庭で安心して遊べます。果実の収穫、ピザ焼き体験、釣りなど、お子様が楽しめる体験が豊富です。キッチン・洗濯乾燥機完備で、長期滞在にも対応しています。</div>
+        </div>
+        <div class="faq-item fade-up">
+          <div class="faq-q">予約はどこからできますか？</div>
+          <div class="faq-a">Airbnbリスティングから空室確認・予約が可能です。事前のご質問・お問い合わせもAirbnbのメッセージ機能からお気軽にどうぞ。ホストは日本語・英語・スペイン語に対応しています。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- BOOKING CTA -->
   <section id="booking">
     <div class="booking-bg">
@@ -1083,10 +1225,10 @@
           ご宿泊に関するお問い合わせは、お気軽にどうぞ。
         </p>
         <div class="booking-btns fade-up delay-3">
-          <a href="https://www.airbnb.jp/rooms/1477080343237895280" class="booking-main-btn" target="_blank" rel="noopener">
+          <a href="https://www.airbnb.jp/rooms/1477080343237895280?source=hp_ja&utm_source=umiyado30_hp&utm_medium=web&utm_campaign=hp_ja" class="booking-main-btn" target="_blank" rel="noopener">
             空室を確認する
           </a>
-          <a href="https://www.airbnb.jp/contact_host/1477080343237895280/send_message" class="booking-contact-btn">
+          <a href="https://www.airbnb.jp/contact_host/1477080343237895280/send_message?utm_source=umiyado30_hp&utm_medium=web&utm_campaign=contact_ja" class="booking-contact-btn">
             お問い合わせはこちら
           </a>
         </div>
@@ -1123,7 +1265,7 @@
         <div class="footer-links">
           <h4>予約・お問合せ</h4>
           <ul>
-            <li><a href="https://www.airbnb.jp/rooms/1477080343237895280" target="_blank" rel="noopener">空室を確認する</a></li>
+            <li><a href="https://www.airbnb.jp/rooms/1477080343237895280?source=hp_ja&utm_source=umiyado30_hp&utm_medium=web&utm_campaign=hp_ja" target="_blank" rel="noopener">空室を確認する</a></li>
             <li><a href="#booking">お問い合わせ</a></li>
           </ul>
           <div style="margin-top: 20px;">
